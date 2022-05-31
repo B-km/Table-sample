@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(243, 132, 5);
+}
+
+table{
+    border: orange solid 1.5px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+thead{
+    text-align: center;
+    display: table-header-group;
+    background-color: rgb(245, 175, 44);
+}
+
+td{
+    border-top: 1px solid orange;
+    padding: 4px;
+}
+.code{
+    font-family: monospace;
+    background-color: rgb(215, 215, 212);
+}
